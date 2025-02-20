@@ -1,7 +1,7 @@
 # Remember to install Pillow and ghostscript first
 # In Mac, to install GhostScript, run: brew install ghostscript
 # In Mac, to install Pillow
-
+# pdg to pdf
 # TODO
 # - Cannot handle directory name with space
 # - If directory did not contains any *.pdg file, it will throw error (e.g. a directory within a directory)
@@ -16,7 +16,7 @@
 # │   ├── *.pdg
 # │   ├── *.pdg
 # │   └── *.pdg
-# /img_to_pdf.py
+# /pdg2pdf.py
 
 from PIL import Image, ImageFile
 import os
